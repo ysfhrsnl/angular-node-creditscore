@@ -89,7 +89,7 @@ rest-functional-test:
                   exit -1
               fi
 
-ui-functional-test:
+ui-functional-test: 
   box:
     id: peternagy/chrome-protractor-headless-test:node9.2-chrome62
   steps:
