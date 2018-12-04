@@ -42,3 +42,11 @@ spec:
     - port: 8103
       targetPort: 3000
   type: ClusterIP
+  
+  
+  spec:
+    type: LoadBalancer
+  ports:
+    - port: 80
+  selector:
+    app: rest-jscreditscore03
