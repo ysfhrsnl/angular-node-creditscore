@@ -108,5 +108,5 @@ ui-functional-test:
               else
                 echo "UI test failed"
                 exit -1
-              fi                
+              fi                 
               
